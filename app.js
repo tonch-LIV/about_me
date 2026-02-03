@@ -5,6 +5,7 @@
 // alert(locks + '!');
 
 // show confirm dialog pop-up with a question
+
 let locks = confirm("Does Antonio have dark hair?");
   if(locks) {// user clicked OK (Yes)
     alert(locks + "! dark colored hair and quite long as well; needs a cut...");
@@ -29,3 +30,10 @@ let seat = confirm("Does Antonio sit in the back of class?");
   };
 console.log(seat + '! Antonio sits in the back-right corner.');
 
+let hungry = confirm("Does Antonio love to eat?");
+  if(hungry) {// user clicked OK (Yes)
+    alert(hungry + "! He loves to mange!");
+  } else {// user clicked Cancel (No)
+    alert(hungry + "... keyword is \"love\".");
+  };
+console.log(hungry + '! Antonio can throwdown against a plate!');
