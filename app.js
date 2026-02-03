@@ -20,3 +20,12 @@ let speaks = confirm("Does Antonio speak english?");
     alert(speaks + "... let's try speaking with him again...");
   };
 console.log(speaks + '! Antonio does speak english.');
+
+let seat = confirm("Does Antonio sit in the back of class?");
+  if(seat) {// user clicked OK (Yes)
+    alert(seat + "! he does sit in the back.");
+  } else {// user clicked Cancel (No)
+    alert(seat + ", let's look around the classroom.");
+  };
+console.log(seat + '! Antonio sits in the back-right corner.');
+
