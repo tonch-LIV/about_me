@@ -11,5 +11,5 @@
 //   };
 
 let locks = confirm('Does Antonio have black hair?');
-console.log('Antonio has ' + locks + ' hair.g' );
-alert('His hair is ' + locks + '!');
+console.log(locks + ', his hair is black!' );
+alert(locks + '!');
