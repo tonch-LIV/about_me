@@ -7,9 +7,16 @@
 // show confirm dialog pop-up with a question
 let locks = confirm("Does Antonio have dark hair?");
   if(locks) {// user clicked OK (Yes)
-    alert("yes, dark colored hair and quite long as well, needs a cut...");
+    alert(locks + "! dark colored hair and quite long as well; needs a cut...");
   } else {// user clicked Cancel (No)
-    alert("hmmm.. let's have another gander");
+    alert(locks + "... hmmm.. let's have another gander at him.");
   };
 console.log(locks + '! Antonio has dark colored hair.');
 
+let speaks = confirm("Does Antonio speak english?");
+  if(speaks) {// user clicked OK (Yes)
+    alert(speaks + "! He does speak english.");
+  } else {// user clicked Cancel (No)
+    alert(speaks + "... let's try speaking with him again...");
+  };
+console.log(speaks + '! Antonio does speak english.');
