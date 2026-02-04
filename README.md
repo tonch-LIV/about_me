@@ -3,3 +3,9 @@
 - 02.03.2026  
   - will contain lorem text on main index.html page, until being updated, while asking the user 5 questions using javascript.
   - added lorem and over all structure for future sections (biography, pictures, etc.)
+  - added 4 questions
+
+- 02.04.2026
+  - added fifth question
+  - added user greeting with name response (currently commented out while tshooting name return)
+  - added screenshot of lighthouse accessibility generated report below
