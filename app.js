@@ -14,6 +14,7 @@ let locks = confirm("Does Antonio have dark hair?");
   };
 console.log(locks + '! Antonio has dark colored hair.');
 
+
 let speaks = confirm("Does Antonio speak english?");
   if(speaks) {// user clicked OK (Yes)
     alert(speaks + "! He does speak english.");
@@ -21,6 +22,7 @@ let speaks = confirm("Does Antonio speak english?");
     alert(speaks + "... let's try speaking with him again...");
   };
 console.log(speaks + '! Antonio does speak english.');
+
 
 let seat = confirm("Does Antonio sit in the back of class?");
   if(seat) {// user clicked OK (Yes)
@@ -30,6 +32,7 @@ let seat = confirm("Does Antonio sit in the back of class?");
   };
 console.log(seat + '! Antonio sits in the back-right corner.');
 
+
 let hungry = confirm("Does Antonio love to eat?");
   if(hungry) {// user clicked OK (Yes)
     alert(hungry + "! He loves to mange!");
@@ -37,3 +40,12 @@ let hungry = confirm("Does Antonio love to eat?");
     alert(hungry + "... keyword is \"love\".");
   };
 console.log(hungry + '! Antonio can throwdown against a plate!');
+
+
+let books = confirm("Does Antonio like to read?");
+  if(books) {// user clicked OK (Yes)
+    alert(books + "! Antonio seems to like reading, as he has been going through more books recently.");
+  } else {// user clicked Cancel (No)
+    alert(books + ", hmmm... he does sometimes slack in concistency, but I think he does like to read; otherwise he woluldn't keep doing it.");
+  };
+console.log(books + '! Antonio does like to read.');
