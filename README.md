@@ -15,4 +15,5 @@
 - 02.08.2026
   - added work exp and education us unorder lists
   - added top ten ordered list
-  
+  - fixed some spelling and prompt responses
+  - added sixth question, guessing game; in midst of annotating for legibility

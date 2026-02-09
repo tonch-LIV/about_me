@@ -11,7 +11,7 @@
 // console.log(greeting + ' has been welcomed.');
 
 
-// show confirm dialog pop-up with a question
+// show confirm dialog pop-up with a question; 1-5
 
 let locks = confirm("Does Antonio have dark hair?");
   if(locks) {// user clicked OK (Yes)
@@ -56,3 +56,30 @@ let books = confirm("Does Antonio like to read?");
     alert(books + ", hmmm... he does sometimes slack in concistency, but I think he does like to read; otherwise he woluldn't keep doing it.");
   };
 console.log(books + '! Antonio does like to read.');
+
+// Guessing number game; question 6
+// Random number between 1 and 10
+const secretNumber = Math.floor(Math.random() * 10) + 1; //.random gens a decimal number which is then mult by 10, .floor rounds down to closest whole number, plus 1 makes range valid 1 to 10
+let attempts = 4; // valid tries to guess
+let guessedCorrectly = false; // baseline, starts off as "no correct answer yet", refferenced at the end as a "double negative"
+
+for (let i = 0; i < attempts; i++) {
+  let guess = parseInt(prompt(`Guess a number between 1 and 10. You have ${attempts - i} guess(es) left:`));
+
+  if (guess === secretNumber) {
+    alert(`🎉 Correct! The number was ${secretNumber}.`);
+    guessedCorrectly = true;
+    break;
+  } else if (guess < secretNumber) {
+    alert("Too low! Try again.");
+  } else if (guess > secretNumber) {
+    alert("Too high! Try again.");
+  } else {
+    alert("Please enter a valid number.");
+    i--; // invalid input doesn’t count as an attempt
+  }
+}
+
+if (!guessedCorrectly) { // conditional that runs if guessedCorrectly is NOT true, 
+  alert(`😞 Sorry, you’re out of guesses! The correct number was ${secretNumber}.`);
+}
