@@ -15,7 +15,7 @@
 
 let locks = confirm("Does Antonio have dark hair?");
   if(locks) {// user clicked OK (Yes)
-    alert(locks + "! dark colored hair and in need of a cut...");
+    alert(locks + "! long, shaggy, dark colored hair.");
   } else {// user clicked Cancel (No)
     alert(locks + "... hmmm.. let's have another gander at him.");
   };
@@ -42,9 +42,9 @@ console.log(seat + '! Antonio sits in the back-right corner.');
 
 let hungry = confirm("Does Antonio love to eat?");
   if(hungry) {// user clicked OK (Yes)
-    alert(hungry + "! He loves to mange!");
+    alert(hungry + "! He loves to manger!");
   } else {// user clicked Cancel (No)
-    alert(hungry + "... keyword is \"love\".");
+    alert(hungry + "... keyword in the question; he doesn't just like it, he _____ it.");
   };
 console.log(hungry + '! Antonio can throwdown against a plate!');
 
