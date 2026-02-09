@@ -13,5 +13,6 @@
   ![accessibility screenshot, score of 94](images/about_me_accessibility_sc.png "Lighthouse dev tools screenshot")
 
 - 02.08.2026
-  - added work exp and education
-  - 
+  - added work exp and education us unorder lists
+  - added top ten ordered list
+  
