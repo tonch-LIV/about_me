@@ -22,7 +22,8 @@ let totalScore = 0; // starts at 0, will increment per correct answers
 
 // Question 1
 
-let locks = confirm("Does Antonio have dark hair?");
+function traits() {
+  let locks = confirm("Does Antonio have dark hair?");
   if(locks) {// user clicked OK (Yes) = correct
     alert(locks + "! long, shaggy, dark colored hair.");
     totalScore++; // adds one to counter for correct answer
@@ -75,11 +76,13 @@ let books = confirm("Does Antonio like to read?");
   };
 console.log(books + '! Antonio does like to read.');
 
+}
+
 //--------------------------------------
 // Guessing number game; question 6    |
 //-------------------------------------
-
-// Random number between 1 and 10
+function game() {
+  // Random number between 1 and 10
 const secretNumber = Math.floor(Math.random() * 10) + 1; //.random gens a decimal number which is then mult by 10, .floor rounds down to closest whole number, plus 1 makes range valid 1 to 10
 
 let attempts = 4; // valid tries to guess
@@ -167,9 +170,22 @@ for (let round = 1; round <= maxTries; round++) {
   console.log(`The fruit I was thinking of was - "${secretAnswer}".`);
 // }
 
+}
+
 //---------------------
 // Final score tally |
 //-------------------
 
-alert(`Alright, lets count 'em up!\nYou got ${totalScore} out of 7 questions correct!`);
+function tally() {
+  alert(`Alright, lets count 'em up!\nYou got ${totalScore} out of 7 questions correct!`);
 console.log(`Final score: ${totalScore}/7`);
+
+}
+
+
+
+
+
+traits();
+game();
+tally();
