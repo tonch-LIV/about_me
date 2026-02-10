@@ -13,7 +13,11 @@
   ![accessibility screenshot, score of 94](images/about_me_accessibility_sc.png "Lighthouse dev tools screenshot")
 
 - 02.08.2026
-  - added work exp and education us unorder lists
-  - added top ten ordered list
-  - fixed some spelling and prompt responses
-  - added sixth question, guessing game; in midst of annotating for legibility
+  - added work exp and education us unorder lists.
+  - added top ten ordered list.
+  - fixed some spelling and prompt responses.
+  - added sixth question, guessing game; in midst of annotating for legibility.
+
+- 02.09.2026
+  - edited gessing game prompt output.
+  - 
