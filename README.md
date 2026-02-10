@@ -21,3 +21,6 @@
 - 02.09.2026
   - edited gessing game prompt output.
   - added seventh question, console message and tested funtionality
+  - added core tally for seven questions
+  - could not run lighthouse/accesibility check; will try tomorrow in class
+  
