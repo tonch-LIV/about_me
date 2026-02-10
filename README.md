@@ -23,4 +23,7 @@
   - added seventh question, console message and tested funtionality
   - added core tally for seven questions
   - could not run lighthouse/accesibility check; will try tomorrow in class
+
+- 02.10.2026
+  - have researched the cause for lighthouse issues, will comment/unlink js and retryb
   
