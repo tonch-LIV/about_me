@@ -26,6 +26,7 @@
 
 - 02.10.2026
   - have researched the cause for lighthouse issues, will comment/unlink js and retryb
-  Antonio was the Navigator, Amity was the driver 
+  Antonio was the Navigator, Amity was the driver
   - added functions to questions, traits,game,tally
+  - commented out script element to not link js file and run lighthouse report, will push and test
   
