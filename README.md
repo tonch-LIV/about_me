@@ -25,10 +25,9 @@
   - could not run lighthouse/accesibility check; will try tomorrow in class
 
 - 02.10.2026
-  - have researched the cause for lighthouse issues, will comment/unlink js and retryb
-  Antonio was the Navigator, Amity was the driver
-  - added functions to questions, traits,game,tally
+  - have researched the cause for lighthouse issues, will comment/unlink js and retry.
+    - Antonio was the Navigator, Amity was the driver.
+    - added functions to questions, traits,game,tally.
   - commented out script element to not link js file and run lighthouse report, will push and test
   - lighthouse report generated, js link ack up and active, and screenshot added below
   ![accessibility screenshot, score of 96](images/lighthouse_02-10.png "Lighthouse dev tools screenshot")
-  
