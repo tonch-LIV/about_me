@@ -1,0 +1,16 @@
+
+
+header, body, footer {
+  background-color: #203370;
+  color: #977b53;
+}
+
+.bubble {
+    background-color: #2a4496;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 25px;
+    border-style: double;
+    border-color: #fecf8d;
+    padding: 30px;
+}

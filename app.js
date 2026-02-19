@@ -4,11 +4,11 @@
 // console.log(locks + ', his hair is black!' );
 // alert(locks + '!');
 
-// const greeting = prompt('This here site is about Antonio and stuff he has done, is doing, or will do, Welcome.', 'What is your name there, partner?');
-// const firstName = document.getElementById('greeting');
-
-// alert('Welcome to this here site, ' + firstName + '!');
-// console.log(greeting + ' has been welcomed.');
+function helloThere(name) {
+  const greeting = prompt('This here site is about Antonio and stuff he has done, is doing, or will do, Welcome.', 'What is your name there, partner?');
+  console.log(greeting + ' has been welcomed.');
+  alert('Welcome to this here site, ' + greeting + '!');
+};
 
 //-------------------------------
 // starts the total score count |
@@ -185,7 +185,7 @@ console.log(`Final score: ${totalScore}/7`);
 
 
 
-
+helloThere();
 traits();
 game();
 tally();
