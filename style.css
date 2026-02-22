@@ -1,16 +1,29 @@
 
 
-header, body, footer {
-  background-color: #203370;
+body {
+  background-color: #2a4496;
+  color: #c1c1c1;
+}
+
+h1, h2 {
+  color: #977b53;
+  font-size: xx-large;
+}
+
+h1, p, li, footer {
+  text-align: center;
+}
+
+a:link, a:visited {
   color: #977b53;
 }
 
 .bubble {
-    background-color: #2a4496;
+    background-color: #203370;
     width: 50%;
     margin: 20px auto;
     border-radius: 25px;
-    border-style: double;
-    border-color: #fecf8d;
+    /* border-style: double;
+    border-color: #fecf8d; */
     padding: 30px;
 }

@@ -20,18 +20,19 @@
 
 - 02.09.2026
   - edited gessing game prompt output.
-  - added seventh question, console message and tested funtionality
-  - added core tally for seven questions
-  - could not run lighthouse/accesibility check; will try tomorrow in class
+  - added seventh question, console message and tested funtionality.
+  - added core tally for seven questions.
+  - could not run lighthouse/accesibility check; will try tomorrow in class.
 
 - 02.10.2026
   - have researched the cause for lighthouse issues, will comment/unlink js and retry.
     - Antonio was the Navigator, Amity was the driver.
     - added functions to questions, traits,game,tally.
-  - commented out script element to not link js file and run lighthouse report, will push and test
-  - lighthouse report generated, js link ack up and active, and screenshot added below
+  - commented out script element to not link js file and run lighthouse report, will push and test.
+  - lighthouse report generated, js link ack up and active, and screenshot added below.
   ![accessibility screenshot, score of 96](images/lighthouse_02-10.png "Lighthouse dev tools screenshot")
 
 - 02.21.26
-  - forgot to update on last editing session, but started adding styling as well as biography section
-  - added `reset.css` and refactored existing css
+  - forgot to update on last editing session, but started adding styling as well as biography section.
+  - added `reset.css` and refactored existing css.
+  - continued styling and replaced lorem with actual text.
