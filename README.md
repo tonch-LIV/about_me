@@ -31,3 +31,7 @@
   - commented out script element to not link js file and run lighthouse report, will push and test
   - lighthouse report generated, js link ack up and active, and screenshot added below
   ![accessibility screenshot, score of 96](images/lighthouse_02-10.png "Lighthouse dev tools screenshot")
+
+- 02.21.26
+  - forgot to update on last editing session, but started adding styling as well as biography section
+  - added `reset.css` and refactored existing css
